@@ -1,0 +1,166 @@
+<!Doctype Html>  
+<Html>     
+<head>      
+<title>     
+Create a Registration form   
+</title>  
+<style>
+    body{
+        border: 3px solid greenyellow;
+        margin: 50px;
+        padding: 10px;
+        text-align: center;
+        background-color: darkolivegreen;
+        color: honeydew;
+        font-family: sans-serif;
+    }
+#button {   
+        background-color: #4CAF50;   
+        color: greenyellow;
+        width: 50%;  
+        padding: 10px;   
+        margin: 10px px;   
+        border: 1px solid;   
+        cursor: pointer;
+        border-radius: 3px;
+         }
+
+         button:hover {   
+        opacity: 0.7;
+        border-radius: 100px;
+    }   
+
+ input{
+border-radius: 3px;
+         }
+        h1{
+            color: greenyellow;
+            background-color: #4CAF50;
+        }
+.container{
+    padding: 25px;   
+        background-color: lightblue;
+}        
+</style>
+</head>  
+<body> 
+    <div class="container">
+    <h1>FarmBuy Registration Form </h1>
+Filling This Registration Form Gives You <br> The Opportunity Of Selling Your Farm Products Faster!
+ 
+<br>
+<br>
+<form>    
+<label> Firstname </label>           
+<input type="text" name="firstname" size="15"/> 
+<br>
+<br>   
+<label> Lastname: </label>           
+<input type="text" name="lastname" size="15"/> 
+<br>
+<br> 
+<label for="file">Upoad A Profile Picture Of Yourself</label>
+<input type="file" required>
+<br>
+<br>
+<label for="date">D.O.B</label>
+<input type="date" name="date" id="date">
+<br>
+<br>
+<label>Gender : </label>   
+    <input type="radio" name="gender"/> Male    
+    <input type="radio" name="gender"/> Female    
+    <input type="radio" name="gender"/> Other 
+<br>
+<br> 
+    <label for="phone">Phone</label>      
+<input type="text" name="phone" size="10"> <br> <br>  
+    Email:    
+<input type="email" id="email" name="email"> <br> <br>    
+Create A Password:    
+<input type="Password" id="pass" name="pass"> <br> <br>
+Repeat Password:    
+<input type="Password" id="pass" name="pass"> <br> <br>
+
+<label>What Best Discribes You ?</label><br>
+    <input type="radio" name="person"/> Farm Owner 
+    <input type="radio" name="person"/> Buyer
+    <input type="radio" name="person"/> Seller 
+    <input type="radio" name="person"/> Looking For Job   <br>
+    <input type="radio" name="person"/> Recruiter
+    <input type="radio" name="person"/> Others <br> <br>
+
+<label>State Of Origin :</label>     
+<select>    
+<option value="Abia">Abia</option>    
+<option value="Adamawa">Adamawa</option>    
+<option value="Akwaibom">Akwaibom</option>    
+<option value="Anambra">Anambra</option>    
+<option value="Bauchi">Bauchi</option>    
+<option value="Bayelsa">Bayelsa</option>    
+<option value="Still Coming">Still Coming</option>    
+</select> 
+<br> <br> 
+
+<label>Local Government Area</label>     
+    <select>    
+    <option value="Abia">Abia</option>    
+    <option value="Adamawa">Adamawa</option>    
+    <option value="Akwaibom">Akwaibom</option>    
+    <option value="Anambra">Anambra</option>    
+    <option value="Bauchi">Bauchi</option>    
+    <option value="Bayelsa">Bayelsa</option>    
+    <option value="Still Coming">Still Coming</option>    
+    </select> 
+    <br>
+    <br>
+
+    <label for="farm website">Does Your Farm Have A website</label>
+<input type="text" id="url" placeholder="www.example.com">
+<br>
+<br>
+<label>Farm Address (Nearest Busstop)</label>   
+    <br>
+    <textarea cols="60" rows="1" value="address">    
+    </textarea>
+    <br>
+    <br>
+    <label for="Size_of_farm">Size Of Farm</label>
+<input type="text" class="Farm Size" name=" id="Farm Size" placeholder="(KM, M, SQM, or FT)">
+<br>
+<br>
+<label>What do you produce in your farm?</label>    
+<br>    
+<input type="checkbox" name="Fruits">Fruits
+<input type="checkbox" name="Live Stocks">Live Stocks    
+<input type="checkbox" name="Vegitables">Vegitables  
+<input type="checkbox" name="crops">crops
+<br>
+<input type="checkbox" name="garden (flowers)">Garden (Flowers)
+<br>
+<br>
+<label for="types of crops">How many types of crops are on your farm?</label>
+<select name="crop" id="crop">
+<option value="crop 1 to 5">1 to 5</option>
+<option value="crop 5 to 10">5 to 10</option>
+<option value="crop 10 to 15">10 to 15</option>
+<option value="crop 15 to 20">15 to 20</option>
+<option value="crop 20 to 25">20 to 25</option>
+<option value="crop 25 to 30">25 to 30</option>
+<option value="crop 30 to 35">30 to 35</option>
+<option value="crop 35 to 40">35 to 40</option>
+<option value="crop 40 to 45">40 to 45</option>
+<option value="crop 45 to 50">45 to 50</option>
+</select>
+<br>
+<br>
+<label for="file">Upoad A Video Or Picture Of Your Farm</label>
+<input type="file" required>
+<br>
+<br>  
+<input type="submit" value="Submit" id="button">  <br><br>  
+<input type="reset" value="Reset" id="button">  
+</form>  
+</div> 
+</Body>   
+</Html>  
